@@ -9,6 +9,7 @@ powershell.exe -command "New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft -Name 
 manage-bde -protectors -get c:
 
 # Run this in CMD with admin take note of ID #
+# this backups up key to ad #
 
 manage-bde -protectors -adbackup c: -id {}
 
